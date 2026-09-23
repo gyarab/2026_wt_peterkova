@@ -17,4 +17,5 @@ Více informací o Robertu Kahnovi najdete na Wikipedii.
 Bob Kahn - foto z Google
 
 odkaz na wiki: https://cs.wikipedia.org/wiki/Bob_Kahn
+
 text vytvořil ChatGPT
