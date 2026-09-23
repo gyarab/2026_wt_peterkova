@@ -21,3 +21,8 @@ Původní odesilatel doplní každou část dat posílané sítí kontrolním so
 Na jaře roku 1973 se k práci na projektu připojil Vint Cerf, se kterým vytvořili první verzi protokolu TCP. Později byl protokol rozdělen na dvě samostatné vrstvy: komunikaci mezi koncovými uzly zajišťuje TCP, zatímco internetový protokol (IP) zajišťuje komunikaci mezi propojenými sítěmi.[12] Tyto dva protokoly tvoří základ rodiny protokolů TCP/IP a moderního Internetu.
 
 V roce 1992 založili s Vintem Cerfem Internet Society s cílem zajišťovat vedení v oblasti standardů, vzdělávání, strategie a politiky související s Internetem.
+
+<img width="528" height="529" alt="image" src="https://github.com/user-attachments/assets/7921368a-de56-4637-8309-203812d675be" />
+Bob Kahn - foto z Google
+
+odkaz na wiki: https://cs.wikipedia.org/wiki/Bob_Kahn
