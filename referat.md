@@ -10,7 +10,6 @@ Zajímavosti
 - Významně přispěl k rozvoji počítačových sítí.
 - Je označován za jednoho z průkopníků internetu.
 
-Více informací o Robertu Kahnovi najdete na Wikipedii.
 
 <img width="528" height="529" alt="image" src="https://github.com/user-attachments/assets/7921368a-de56-4637-8309-203812d675be" />
 
