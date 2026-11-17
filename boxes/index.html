@@ -12,16 +12,31 @@
     <style>
         /* pomocné orámování krabic, ať vidíme, co se děje */
         .krabice {
-            border: 2px dashed tomato;
+            border: 2px dashed rgb(98, 59, 45);
             padding: 1rem;
             min-height: 80px;
+
+        }
+         body {
+            background-color: palegoldenrod;
         }
     </style>
 </head>
 <body>
+<!-- ukol 7 -->
+    <div class="alert theme-warning md:d-none">
+        Jsi na mobilu!
+    </div>
+
+    <div class="alert theme-info d-none lg:d-block">
+        Jsi na velkem displeji!
+    </div>
+
+    
 
     <!-- Ukazatel aktuálního breakpointu (vpravo dole) -->
     <div class="position-fixed bottom-0 end-0 m-3 badge theme-inverse fs-md">
+        
         <span class="sm:d-none">XS &lt; 576</span>
         <span class="d-none sm:d-inline md:d-none">SM ≥ 576</span>
         <span class="d-none md:d-inline lg:d-none">MD ≥ 768</span>
@@ -40,6 +55,8 @@
     <div class="container-fluid"><div class="krabice">container-fluid</div>
 </div>
 
+<p></p>
+
     <div class="row row-cols-1 md:row-cols-2 lg:row-cols-3 xl:row-cols-4">
         <div class="col krabice">1</div>
         <div class="col krabice">2</div>
@@ -51,7 +68,7 @@
         <div class="col krabice">8</div>
     </div>
 
-    
+   
     <div class="row" >
         <div class="col-12 md:col-6 lg:col-4 xl:col-3 krabice">1</div>
         <div class="col-12 md:col-6 lg:col-4 xl:col-3 krabice">2</div>
@@ -63,15 +80,34 @@
         <div class="col-12 md:col-6 lg:col-4 xl:col-3 krabice">8</div>
     </div>
 
+     <!-- paticka = footer - uplne dole -->
 
-<!-- ukol 7 skryvani -->
-<div class="alert theme-warning md:d-none">
-    Jsi na mobilu
-</div>
+    <footer class="bg-1 fg-2 py-4" id="kontakt">
+       
 
-<div class="alert theme-info lg:d-none">
-    Jsi na velkém displeji
-</div>
+        <div class="container">
+
+            <div class="d-flex flex-column md:flex-row
+                justify-content-between align-items-center
+                gap-3 text-center">
+
+                <p class="mb-0">
+                    © 2026 BOXES
+                </p>
+
+                <p class="mb-0">
+                    Email: idk@boxes.cz
+                </p>
+
+                <p class="mb-0">
+                    Telefon: +420 123 456 789
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
 
 
     <!-- Bootstrap 6 – JS (je to ES modul => type="module") -->
