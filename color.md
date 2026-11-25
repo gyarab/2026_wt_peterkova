@@ -1,4 +1,6 @@
-# Psychologie barev - aplikace Pinterest
+# Pinterest
+
+## Psychologie barev
 
 ![Logo Pinterestu](https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png)
 
